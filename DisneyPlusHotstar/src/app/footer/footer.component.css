@@ -1,0 +1,227 @@
+.footer {
+    background-color: #0c111b;
+}
+
+.footer .footer-container {
+    margin: 0 auto;
+    max-width: calc(100vw - 105px);
+}
+
+.footer .footer-container .footer-left {
+    padding: 0;
+    width: 60%;
+    padding-top: 40px;    
+    display: inline-block;
+}
+
+.footer .footer-container .footer-left .copyright {
+    margin-left: 30px;
+    font-size: 12px;
+    line-height: 1.8;
+    color: #dadada;
+    font-weight: 400;
+}
+
+ul {
+    display: inline;
+}
+
+li {
+    list-style: none;
+    margin-right: 10px;
+    margin-bottom: 20px;
+    text-transform: capitalize;
+    display: inline-block;
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+    font-weight: 400;
+    color:rgba(255, 255, 255, 0.6);
+    font-size: 14px;
+} 
+
+.footer .footer-container .footer-right {
+    padding-right: 0;
+    max-width: 540px;
+    float: right;
+    margin-top: -100px;
+    display: inline;
+}
+
+.footer .footer-container .footer-right p {
+    font-size: 14px;
+    font-weight: 500;
+    color: rgba(255, 255, 255, 0.6);
+    padding-bottom: 7px;
+}
+
+.footer-right .app-unit .store-wrapper {
+    float: right;
+    display: inline;
+}
+
+.social-unit {
+    float: right;
+    margin-right: 35px;
+}
+.social-unit a {
+    background: url(https://www.hotstar.com/assets/00dd72dcb62378da1988866159d26cca.svg) top left no-repeat;
+    height: 40px;
+    width: 40px;
+    display: inline-block;
+    margin-right: 5px;
+}
+
+.tw {
+    background: url(https://www.hotstar.com/assets/00dd72dcb62378da1988866159d26cca.svg) top center no-repeat !important;
+}
+
+.playstore {
+    padding-bottom: 27px;
+    background:url(https://www.hotstar.com/assets/67764ffe0b6b18e06d60049a00c86335.svg) top left;
+}
+
+.appstore {
+    /* margin-top: -20px; */
+    /* height: 60px; */
+    /* padding-bottom: 27px; */
+    /* padding-bottom: 27px; */
+    
+    background:url(https://www.hotstar.com/assets/67764ffe0b6b18e06d60049a00c86335.svg) top center;
+    background-position: -45px 45px;
+}
+.iosstore-img {
+    margin-top: -20px;
+    height: 40px;
+    border: none;
+}
+/* 
+a.fb:hover {
+    background-color: #1f80e0;
+    background-position: 0 -45px;
+}
+
+a.tw:hover {
+    background-color: #1f80e0;
+    background-position: -45px -50px;
+}
+
+.store-wrapper a {
+    display: inline-block;
+    width: 135px;
+} */.footer {
+    background-color: #0c111b;
+}
+
+.footer .footer-container {
+    margin: 0 auto;
+    max-width: calc(100vw - 105px);
+}
+
+.footer .footer-container .footer-left {
+    padding: 0;
+    width: 60%;
+    padding-top: 40px;    
+    display: inline-block;
+}
+
+.footer .footer-container .footer-left .copyright {
+    margin-left: 30px;
+    font-size: 12px;
+    line-height: 1.8;
+    color: #dadada;
+    font-weight: 400;
+}
+
+ul {
+    display: inline;
+}
+
+li {
+    list-style: none;
+    margin-right: 10px;
+    margin-bottom: 20px;
+    text-transform: capitalize;
+    display: inline-block;
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+    font-weight: 400;
+    color:rgba(255, 255, 255, 0.6);
+    font-size: 14px;
+} 
+
+.footer .footer-container .footer-right {
+    padding-right: 0;
+    max-width: 540px;
+    float: right;
+    margin-top: -100px;
+    display: inline;
+}
+
+.footer .footer-container .footer-right p {
+    font-size: 14px;
+    font-weight: 500;
+    color: rgba(255, 255, 255, 0.6);
+    padding-bottom: 7px;
+}
+
+.footer-right .app-unit .store-wrapper {
+    float: right;
+    display: inline;
+}
+
+.social-unit {
+    float: right;
+    margin-right: 35px;
+}
+.social-unit a {
+    background: url(https://www.hotstar.com/assets/00dd72dcb62378da1988866159d26cca.svg) top left no-repeat;
+    height: 40px;
+    width: 40px;
+    display: inline-block;
+    margin-right: 5px;
+}
+
+.tw {
+    background: url(https://www.hotstar.com/assets/00dd72dcb62378da1988866159d26cca.svg) top center no-repeat !important;
+}
+
+.playstore {
+    padding-bottom: 27px;
+    background:url(https://www.hotstar.com/assets/67764ffe0b6b18e06d60049a00c86335.svg) top left;
+}
+
+.appstore {
+    /* margin-top: -20px; */
+    /* height: 60px; */
+    /* padding-bottom: 27px; */
+    /* padding-bottom: 27px; */
+    
+    background:url(https://www.hotstar.com/assets/67764ffe0b6b18e06d60049a00c86335.svg) top center;
+    background-position: -45px 45px;
+}
+.iosstore-img {
+    margin-top: -20px;
+    height: 40px;
+    border: none;
+}
+/* 
+a.fb:hover {
+    background-color: #1f80e0;
+    background-position: 0 -45px;
+}
+
+a.tw:hover {
+    background-color: #1f80e0;
+    background-position: -45px -50px;
+}
+
+.store-wrapper a {
+    display: inline-block;
+    width: 135px;
+} */

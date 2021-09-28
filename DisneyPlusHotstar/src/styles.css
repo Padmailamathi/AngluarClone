@@ -1,1 +1,49 @@
 /* You can add global styles to this file, and also import other style files */
+
+.slick-slider {
+    width: 100%;
+    
+}
+
+.slick-arrow.slick-hidden {
+  display: block;
+  background-color: red;
+}
+
+
+
+body .slick-prev, 
+body .slick-next {
+  /* visibility: hidden; */
+  margin-left: 11px;
+  margin-right: 20px;
+  width: 5vw; 
+  height: 200px;
+  z-index: 2;
+}
+
+/* navbar */
+.brand-logo {
+  width: 115px;
+  height: 45px;
+  padding-bottom: 10px;
+  cursor: pointer;
+}
+
+.navbar {
+  background-color: #192133;
+}
+
+
+.nav-container {
+  padding-right: 50px;
+  padding-left: 50px;
+  background-color: #192133;
+}
+
+.navbar.navbar-expand-lg.nav-container li a {
+  color : rgba(255, 255, 255, 0.8);
+}
+
+html {background-color: #0c111b}
+

@@ -1,0 +1,40 @@
+.tray-container {
+    margin-top: 10px;
+    margin-left: 76px;
+    margin-bottom: 10px;
+}
+.tray-container .tray-title {
+    padding: 0;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    text-align: left;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1;
+    font-size: 20px;
+    white-space: normal;
+    color:white;
+}
+.carousel {
+    height: 190px;
+}
+.image-holder {
+    /* overflow : hidden; */
+    /* max-height: 100px; */
+    width: calc(calc(100vw - 105px) / 8.5);
+    min-height: auto !important;
+    position: relative;
+    padding-bottom: calc(1.32821 * 100%);
+}
+
+.thambnail {
+    height: 190px;
+    width: 130px;
+    border-radius: 5px;
+}
+
+
+.slider button{
+    visibility: hidden;
+}
+  

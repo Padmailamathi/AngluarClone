@@ -1,0 +1,70 @@
+
+
+.navbar.navbar-expand-lg.nav-container .container-fluid .icon-wrapper {
+    
+    padding: 20px;
+    margin-left: -10px;
+    /* top: 0; */
+}
+
+.navbar.navbar-expand-lg.nav-container .container-fluid .icon-wrapper .line{
+    width: 18px;
+    height: 2px;
+    margin-bottom: 3px;
+    background: rgba(255, 255, 255, 0.8);
+    display: block;
+}
+
+.navbar.navbar-expand-lg.nav-container .container-fluid .brand-logo {
+    position: relative;
+}
+.btn.btn-primary.subscribe {
+    text-transform: uppercase;
+    text-align: center;
+    margin: 15px 0 15px 20px;
+    padding: 0 12px;
+    position: relative;
+    font-weight: 700;
+    height: 24px;
+    border-radius: 4px;
+    font-size: 12px;
+}
+
+.dropdown-menu {
+    color: #fff;
+    background-color: #0c111b;
+}
+
+.dropdown-hover-menu::before {
+    background-color: red;
+    content: '';
+    position: absolute;
+    left: 0;
+    width: 100%;
+    top: -3px;
+    height: 3px;
+    border: 1px solid black;
+  }
+
+.dropdown-menu {
+      background-color: #192133;
+      border-radius: 4px;
+}
+
+.dropdown-item {
+    /* background-color: #030b17; */
+    color: #030b17;
+}
+
+.dropdown-item:hover {
+    box-shadow: 0 0 10px 100px #030b17 inset;
+}
+
+.login-container {
+    margin-top: 14px;
+    cursor: pointer;
+}
+
+li .nav-link {
+    cursor: pointer;
+}

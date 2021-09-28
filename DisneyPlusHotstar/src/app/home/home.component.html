@@ -1,0 +1,23 @@
+<app-header></app-header>
+<div class="home">
+    <div class="masthead-item-container">
+        <div class="masthead-card">
+            <ngx-slick-carousel class="carousel" 
+                #slickModal="slick-carousel" 
+                [config]="slideConfig">
+                    <div ngxSlickItem *ngFor="let slide of slides" class="slide">
+                        <div class="image-holder">
+                            <img src="{{ slide.image }}" >
+                        </div>
+                        <slider-content></slider-content>
+                        <!-- <p style="color: brown;">{{slider-content}}</p> -->
+                    </div>
+            </ngx-slick-carousel>
+            <div class="image-gradient"></div>
+            
+        </div>
+    </div>
+    <app-tray></app-tray>
+    <app-footer></app-footer>
+</div>
+

@@ -1,0 +1,43 @@
+.tray-container {
+    margin-top: 10px;
+    margin-left: 46px;
+    margin-bottom: 10px;
+}
+.tray-container .tray-title {
+    padding: 0;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    text-align: left;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1;
+    font-size: 20px;
+    white-space: normal;
+    color:white;
+}
+.carousel {
+    height: 190px;
+}
+
+.tray-content {
+    margin-left: 30px;
+}
+.image-holder {
+    /* max-height: 100px; */
+    width: calc(calc(100vw - 105px) / 8.5);
+    min-height: auto !important;
+    position: relative;
+    padding-bottom: calc(1.32821 * 100%);
+}
+
+.thambnail {
+    height: 190px;
+    border-radius: 5px;
+    cursor: pointer;
+    
+} 
+
+
+.thambnail:hover{
+    transform: scale(2.5);
+}

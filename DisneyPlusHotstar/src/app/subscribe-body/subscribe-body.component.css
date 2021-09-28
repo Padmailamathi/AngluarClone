@@ -1,0 +1,226 @@
+.subscribe-body {
+    background-color: #0c111b;
+    padding-top: 3rem;
+}
+.subscribe-body .subscribe-caption-container {
+    text-align: center;
+    margin-bottom: 30px;
+}
+.subscribe-body .subscribe-caption {
+    font-size: 24px;
+    font-weight: 400;
+    position: relative;
+    line-height: 32px;
+    color:#fff;
+    text-shadow: 0px 0px 14px #0c111b;
+    margin: 0 36px;
+    max-width: 830px;
+}
+
+.subscribe-body .subscribe-body-comparator {
+    /* margin-top: 15px; */
+    margin: auto;    
+    width: 100%;
+    max-width: 880px;
+    height: 200px;
+    background: linear-gradient(to bottom, #192133, #111826);;
+    padding: 0 50px 20px;
+    border-radius: 8px;
+    -webkit-box-shadow: 0 -80px 100px 0 #0c111b;
+    box-shadow: 0 -80px 100px 0 #0c111b;
+    overflow: hidden;
+    height:1%;
+}
+
+.super-container  {
+    /* background-color:#1e2a48; */
+    text-align: center;
+    margin-top: 24px;
+}
+.super-container .super-span {
+    color: #fedf7b;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.premium-container  {
+    /* background-color:#1e2a48; */
+    text-align: center;
+    margin-top: 24px;
+}
+.premium-container .premium-span {
+    font-weight: bold;
+    font-size: 16px;
+    color: rgba(255, 255, 255, 0.6);
+}
+/*  */
+
+.current-plan {
+    color: #fedf7b;
+    background-color: #1e2a48;
+}
+
+.tick-icon {
+    height: 24px;
+    max-width : 100%;  
+}
+
+.tick {
+    margin-top: -75px;
+}
+
+.tick-pre {
+    margin-top: 10px;
+    margin-top: -33px;
+    margin-right: -10px;
+}
+.subscribe-body-comparator-content {
+    border-top: 1px solid rgba(46,51,51,0.4);
+    margin: 0;
+}
+
+.subscribe-body-comparator-key-title {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #fff;
+    opacity: 0.8;
+    align-items: center;
+    padding: 10px;
+    /* margin: auto; */
+}
+
+.subscribe-body-comparator-key-desc {
+    color: #1f80e0;
+    font-size: 13px;
+    margin-top: -5px;
+    margin-left: 7px;
+}
+
+.subscribe-body-comparator-row {
+    margin: 0px;
+}
+
+.super-container-new {
+    text-align: center;
+    background-color: #1e2a48;
+    margin: 0;
+}
+
+.super-value {
+    color: #fff;
+    font-size: 16px;
+}
+.premium-value {
+    color:rgba(255, 255, 255, 0.6);
+    font-size: 16px;
+}
+
+/* bottom */
+.sub-bottom .pack-buttons {
+    display: flex;
+    margin-right: 13px;
+    margin-top: 10px;
+}
+
+.pack-button-super {
+    margin-right: 13px;
+    /* border: 1px solid #334366; */
+    border-radius: 5px;
+}
+
+.pre {
+    /* margin-right: 13px; */
+    /* border: 1px solid #334366; */
+    /* border-radius: 5px; */
+}
+
+.pricing-container {
+    margin-top: 2px;
+    color: #fff;
+}
+
+.btn{
+    /* background-color:#334366; */
+    background-color: #0c111b;
+    border-color: #334366;
+    border-radius: 5px;
+    width: 100%;
+    text-align: left !important;
+}
+
+.btn-title {
+    font-weight: bold;
+    font-size: 16px;
+    opacity: 0.8;
+    padding: 13px 0 0;
+    text-align: left;
+    color: #fedf7b;
+    opacity: 1;
+}
+
+.pricing {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.duration {
+    font-weight: normal;
+    font-size: 16px;
+}
+
+.pre {
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.btn.selected {
+    
+    background-color: rgba(31,128,224,0.4);
+    border: 1px solid #1f80e0;
+}
+
+.btn:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+.tick-icon {
+    position: absolute;
+    margin-top: -15px;
+    margin-left: -20px;
+}
+
+.tick-container {
+    float: right;
+    margin-top: -60px;
+    margin-left: 10px;
+    margin-right: -14px;
+}
+
+.hidden {
+    display: none;
+}
+.continue-container {
+    margin-top: 20px;
+}
+.continue-container .btn-continue {
+    /* padding: 10px 390px; */
+    padding: 15px 18px 15px;
+    background: #1f80e0;
+    color: #fff;
+    text-transform: uppercase;   
+    text-align: center !important;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.icon-container  {
+    display: inline;
+    align-items: center !important;
+}
+.icon-container .carousel-control-next-icon {
+    position: relative;
+    margin-bottom: -4px;
+    height: 20px;
+}

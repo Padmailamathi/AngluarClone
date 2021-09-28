@@ -1,0 +1,17 @@
+<div class="tray-container">
+    <div class="tray-title">
+        Latest & Trending
+    </div>
+</div>
+<ngx-slick-carousel class="carousel" 
+    #slickModal="slick-carousel" 
+    [config]="slideConfig">
+        <div ngxSlickItem *ngFor="let slide of slides" class="slide">
+            <div class="thambnail-container">
+                <div class="image-holder">
+                    <img src="{{ slide.image }}" class="thambnail"> 
+                </div>
+            </div>
+            
+        </div>
+</ngx-slick-carousel>
