@@ -34,4 +34,6 @@ export class HomeComponent implements OnInit {
     this.slides = this.slider.getSliderKidsData();
   }
 
+ 
+
 }

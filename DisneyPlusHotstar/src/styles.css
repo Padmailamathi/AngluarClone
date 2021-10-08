@@ -47,3 +47,11 @@ body .slick-next {
 
 html {background-color: #0c111b}
 
+
+.hidden {
+  display: none;
+}
+
+.show {
+  display: block;
+}

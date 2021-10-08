@@ -80,3 +80,44 @@
 }
 
 
+p {
+    color: #fff;
+    font-size: 20px;
+}
+
+.container {
+    width: 100%;
+    margin-top: 66px;
+}
+
+.slider-content .title {
+    font-size: 28px;
+    color: #fff;
+    font-weight: 600;
+}
+
+.slider-content .top {
+    padding-top: 10px;
+}
+.slider-content .top .meta-data {
+    font-size: 16px;
+    font-weight: 500;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.slider-content .description {
+    color: #fff;
+    font-size: 16px;
+    padding-top: 10px;
+    overflow-wrap: break-word;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 4;
+    overflow: hidden;
+    line-height: 28px;
+}
+
+.dot {
+    padding-left: 5px;
+    padding-right: 5px;
+}

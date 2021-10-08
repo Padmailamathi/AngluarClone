@@ -1,4 +1,5 @@
 <app-header></app-header>
+
 <div class="home">
     <div class="masthead-item-container">
         <div class="masthead-card">
@@ -7,9 +8,24 @@
                 [config]="slideConfig">
                     <div ngxSlickItem *ngFor="let slide of slides" class="slide">
                         <div class="image-holder">
-                            <img src="{{ slide.image }}" >
+                            <img src="{{ slide.image }}">
                         </div>
-                        <slider-content></slider-content>
+                        <div class="container">
+                            <div class="slider-content">
+                                <div class="title">
+                                    {{slide.title}}
+                                </div>
+                                <div class="top">
+                                    <span class="meta-data">{{slide.language}}<span class="dot">.</span></span>
+                                    <span class="meta-data">{{slide.genere}}<span class="dot">.</span></span>
+                                    <span class="meta-data">{{slide.year}}</span>
+                                </div>
+                                <div class="description">
+                                    {{slide.description}}
+                                </div>
+                                
+                            </div>
+                        </div>
                         <!-- <p style="color: brown;">{{slider-content}}</p> -->
                     </div>
             </ngx-slick-carousel>

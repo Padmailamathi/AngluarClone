@@ -33,7 +33,7 @@
 }
 
 .super-container  {
-    /* background-color:#1e2a48; */
+    /* background-color:#super; */
     text-align: center;
     margin-top: 24px;
 }
@@ -224,3 +224,11 @@
     margin-bottom: -4px;
     height: 20px;
 }
+
+.current_plan {
+    background: #1e2a48;
+    border-bottom: 1px solid #1e2a48;
+    border-radius: 1px;
+    opacity: unset;
+}
+

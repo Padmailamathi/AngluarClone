@@ -12,12 +12,12 @@
                             <div class="subscribe-body-comparator-key-desc"></div>
                     </div> 
                     </div>
-                    <div class="col-2">
+                    <div class="col-2" [ngClass]="isCurrentPlan ? 'current_plan' : ''">
                     <div class="super-container">
                         <span class="super-span">Super</span>
                     </div>                    
                     </div>
-                    <div class="col-2">
+                    <div class="col-2" [ngClass]="isCurrentPlanPre ? 'current_plan' : ''">
                     <div class="premium-container">
                         <span class="premium-span">
                             Premium
@@ -38,7 +38,8 @@
                         </div>   
                     </div>
                 </div>
-                <div class="col-2">
+                <div class="col-2" [ngClass]="isCurrentPlan ? 'current_plan' : ''">
+        
                     <div class="super-container">
                         <span>
                             <img src="https://secure-media.hotstar.com/static/subscription/paywall_service/comparator/tick/smp/web-1x.png" 
@@ -46,7 +47,7 @@
                         </span>
                     </div>                    
                 </div>
-                <div class="col-2">
+                <div class="col-2" [ngClass]="isCurrentPlanPre ? 'current_plan' : ''">
                 <div class="premium-container">
                     <span>
                         <img src="https://secure-media.hotstar.com/static/subscription/paywall_service/comparator/tick/smp/web-1x.png" 
@@ -66,7 +67,7 @@
                         </div>   
                     </div>
                 </div>
-                <div class="col-2">
+                <div class="col-2" [ngClass]="isCurrentPlan ? 'current_plan' : ''">
                     <div class="super-container">
                         <span>
                             <img src="https://secure-media.hotstar.com/static/subscription/paywall_service/comparator/tick/smp/web-1x.png" 
@@ -74,7 +75,7 @@
                         </span>
                     </div>                    
                 </div>
-                <div class="col-2">
+                <div class="col-2" [ngClass]="isCurrentPlanPre ? 'current_plan' : ''">
                 <div class="premium-container">
                     <span>
                         <img src="https://secure-media.hotstar.com/static/subscription/paywall_service/comparator/tick/smp/web-1x.png" 
@@ -96,7 +97,7 @@
                         </div>   
                     </div>
                 </div>
-                <div class="col-2">
+                <div class="col-2" [ngClass]="isCurrentPlan ? 'current_plan' : ''">
                     <div class="super-container">
                         <span>
                             <img src="https://secure-media.hotstar.com/static/subscription/paywall_service/comparator/tick/smp/web-1x.png" 
@@ -104,7 +105,7 @@
                         </span>
                     </div>                    
                 </div>
-                <div class="col-2">
+                <div class="col-2" [ngClass]="isCurrentPlanPre ? 'current_plan' : ''">
                 <div class="premium-container">
                     <span>
                         <img src="https://secure-media.hotstar.com/static/subscription/paywall_service/comparator/tick/smp/web-1x.png" 
@@ -125,7 +126,7 @@
                         </div>   
                     </div>
                 </div>
-                <div class="col-2">
+                <div class="col-2" [ngClass]="isCurrentPlan ? 'current_plan' : ''">
                     <div class="super-container">
                         <span>
                             <img src="https://secure-media.hotstar.com/static/subscription/paywall_service/comparator/tick/smp/web-1x.png" 
@@ -133,7 +134,7 @@
                         </span>
                     </div>                    
                 </div>
-                <div class="col-2">
+                <div class="col-2" [ngClass]="isCurrentPlanPre ? 'current_plan' : ''">
                 <div class="premium-container">
                     <span>
                         <img src="https://secure-media.hotstar.com/static/subscription/paywall_service/comparator/tick/smp/web-1x.png" 
@@ -153,14 +154,14 @@
                         </div>   
                     </div>
                 </div>
-                <div class="col-2">
+                <div class="col-2"  [ngClass]="isCurrentPlan ? 'current_plan' : ''">
                     <div class="super-container">
                         <span class="super-value">
                             Full HD(1080p)
                         </span>
                     </div>                    
                 </div>
-                <div class="col-2">
+                <div class="col-2" [ngClass]="isCurrentPlanPre ? 'current_plan' : ''">
                 <div class="premium-container">
                     <span class="premium-value">
                         4K (2160p)
@@ -179,14 +180,14 @@
                         </div>   
                     </div>
                 </div>
-                <div class="col-2">
+                <div class="col-2" [ngClass]="isCurrentPlan ? 'current_plan' : ''">
                     <div class="super-container">
                         <span class="super-value">
                             Dolby 5.1
                         </span>
                     </div>                    
                 </div>
-                <div class="col-2">
+                <div class="col-2" [ngClass]="isCurrentPlanPre ? 'current_plan' : ''">
                 <div class="premium-container">
                     <span class="premium-value">
                         Dolby 5.1
@@ -229,7 +230,7 @@
                 </div>
                 <div class="col-12">
                     <div class="continue-container">
-                        <button class="btn btn-continue">Continue with Premium 
+                        <button class="btn btn-continue">Continue with {{sub}} 
                             <div class="icon-container">
                                 <span class="carousel-control-next-icon" aria-hidden="true"></span>
                             </div>

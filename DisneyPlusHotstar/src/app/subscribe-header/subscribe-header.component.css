@@ -42,6 +42,7 @@
 
 .dropdown-container .dropdown-up {
     margin-right: -10px;
+    margin-top: -3px;
 }
 
 .dropdown-menu  {
@@ -64,6 +65,10 @@
     border-color: rgba(255, 255, 255, 0.8);
 }
 
-
+.dropdown-down {
+    transform:  translateY(-50%) rotate(180deg);
+    margin-right: -10px;
+    margin-bottom: -13px;
+}
 
 

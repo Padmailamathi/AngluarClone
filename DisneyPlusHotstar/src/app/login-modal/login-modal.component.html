@@ -1,0 +1,52 @@
+<div class="modal-container">
+  <div class="modal-header">
+    <div class="back-button">
+      
+    </div>
+    <button type="button" class="btn-close" aria-label="Close" (click)="onCloseModal()"></button>
+  </div>
+  <div class="modal-body">
+    <div class="login-container"> 
+      <div class="heading">
+        <div class="heading-text">{{login_text}}</div>
+      </div>    
+      <div class="modal-body-container">
+        <div class="login-top" #login_top>
+          <button class="login-button">Have a Facebook/Email account?</button>
+          <div class="or-div">
+            <p>or</p>
+          </div>
+        </div>
+        <div class="">
+          <form [formGroup]="LoginForm" (ngSubmit)="onLogin()" >
+            <div class="phone-number-container">
+                <span class="country-code">
+                  +91
+                </span>
+                <div class="input-box">
+                    <div class="form-group">
+                      <input type="text" class="form-control" placeholder="Enter your mobile number" 
+                      maxlength=10 (keyup)="onTypeInput()" formControlName='mobile_number'>
+                    </div>
+                </div>
+            </div>
+            <div class="footer" #footer>
+               <div *ngIf="LoginForm.controls['mobile_number'].invalid && LoginForm.controls['mobile_number'].dirty">
+                <p class="alert-txt">Please Enter Valid number
+                  <i class="error-icon-triangle"></i>
+                </p>
+                </div>
+              <button class="btn btn-primary" type="submit" [disabled]="!LoginForm.valid">Continue ></button>
+              <div class="attest-message"> 
+                <span class="attest-message-text"> 
+                  By Proceeding you agree to the <a href="">Terms of use</a> and <a href="">Privacy Policy</a>
+                </span>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+

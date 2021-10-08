@@ -11,16 +11,16 @@
             <ul class="navbar"> 
                 <li class="nav-item dropdown">
                     <div  class="dropdown-container">
-                        <a class="nav-link">
+                        <a class="nav-link" (click)="onDropDownOpen()">
                             <div class="content">
                                 <span class="view">View In<b class="content">English</b>
                                     <img src="https://secure-media.hotstarext.com/web-assets/prod/images/langauge-switcher-chevron-dark-mode.svg" alt="" 
-                                    class="dropdown-up">
+                                    class="dropdown-up" #dropdown_down>
                                 </span>
                             </div>
                         </a>
                         <div class="sublink-container">
-                            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink" [ngClass]="isOpen ? 'show' : ''">
                                 <li class="divider"></li>
                                 <li class="dropdown-item"><a class="dropdown-link">English</a></li>
                                 <li class="divider"></li>
@@ -36,7 +36,7 @@
                 </li>
                 <div>
                     <li class="nav-item login-container">
-                        <a class="nav-link"><button class="btn btn-primary login-button">Log In</button></a>
+                        <a class="nav-link"><button class="btn btn-primary login-button" (click)="onClickLogin()">Log In</button></a>
                     </li>
                 </div>
             </ul>
